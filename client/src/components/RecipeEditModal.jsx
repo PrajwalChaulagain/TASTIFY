@@ -11,7 +11,7 @@ const RecipeEditModal = ({
     }) => {
     return (
         <Modal
-            title="Edit Recipe"
+            
             visible={visible}
             onOk={onUpdate}
             onCancel={onCancel}
