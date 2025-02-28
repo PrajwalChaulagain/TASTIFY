@@ -4,7 +4,7 @@ import { Modal } from 'antd';
 const RecipeDetailsModal = ({ visible, onCancel, recipeDetails }) => {
     return (
         <Modal
-            title="Recipe Details"
+            title="Recipe "
             visible={visible}
             onCancel={onCancel}
             footer={null}
