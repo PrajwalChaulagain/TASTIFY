@@ -37,7 +37,7 @@ const Navbar = () => {
   const content = (
       <div>
         <p>Email: {userEmail}</p>
-        <Button type="primary" onClick={logout}>Logout</Button>
+        <Button type="secondary" onClick={logout}>Logout</Button>
       </div>
   );
 
