@@ -7,3 +7,4 @@ function PrivateRoute() {
   return currentUser ? <Outlet /> : <Navigate to="/auth/login" />;
 }
 
+export default PrivateRoute;
