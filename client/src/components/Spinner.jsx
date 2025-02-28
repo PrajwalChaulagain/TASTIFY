@@ -6,7 +6,7 @@ const App = () => (
         indicator={
             <LoadingOutlined
                 style={{
-                    fontSize: 24,
+                    fontSize: 20,
                     color: "#ffffff"
                 }}
                 spin
